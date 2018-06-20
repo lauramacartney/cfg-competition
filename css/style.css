@@ -16,10 +16,12 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #a5be97;
+    height: 10%;
 }
 
 li {
-    float: left;
+
+    float: right;
 }
 
 li a {
@@ -28,6 +30,8 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 27px;
+    font-family: "Avenir";
 }
 
 li a:hover {
@@ -35,4 +39,18 @@ li a:hover {
 }
 #logo {
   float: left;
+}
+.cover-heading{
+  color:#f58f8f;
+  font-family: "Avenir";
+  font-size: 1000%;
+}
+.lead{
+    font-size: 200%;
+    font-family: "Avenir";
+
+}
+
+a{
+  color: #898989;
 }
