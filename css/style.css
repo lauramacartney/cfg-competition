@@ -1,22 +1,28 @@
 .container
   {color: #a5be97;}
 
-.jumbotron {font-size: 400px; color: white}
+h1{
+
+  font-size: 400%;
+  color: white
+
+}
+h2{
+
+  font-size: 200%;
+  color: white
+
+}
 
 body, html {
       height: 100%;
       margin: 0;
   }
-
-.bg {
-         /* The image used */
-         background-image: url("../images/171122_InCommon_7992.jpg");
-
-         /* Full height */
-         height: 100%;
-
-         /* Center and scale the image nicely */
-         background-position: center;
-         background-repeat: no-repeat;
-         background-size: cover;
-     }
+.site-wrapper{
+   background-image: url("../images/171122_InCommon_7992.jpg");
+   height: 100%;
+   max-width: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
