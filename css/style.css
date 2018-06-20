@@ -1,10 +1,22 @@
 .container
   {color: #a5be97;}
 
-.jumbotron {font-size: 400px; color: white}  
+.jumbotron {font-size: 400px; color: white}
 
-body
-    {font-family: avenir; color: #898989;}
+body, html {
+      height: 100%;
+      margin: 0;
+  }
 
-ul
-  {font-family: avenir; color: #898989;}
+.bg {
+         /* The image used */
+         background-image: url("../images/171122_InCommon_7992.jpg");
+
+         /* Full height */
+         height: 100%;
+
+         /* Center and scale the image nicely */
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+     }
