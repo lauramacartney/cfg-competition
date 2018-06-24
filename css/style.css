@@ -16,7 +16,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #a5be97;
-    height: 10%;
+    height: 90px;
 }
 
 li {
@@ -30,27 +30,28 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 27px;
-    font-family: "Avenir";
+    font-size: 30px;
+    font-family: "Open Sans";
+    line-height: 50px;
+
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: white;
+
 }
 #logo {
   float: left;
+  width: 90px;
+  height: 90px;
 }
 .cover-heading{
   color:#f58f8f;
-  font-family: "Avenir";
+  font-family: "Open Sans";
   font-size: 1000%;
 }
 .lead{
     font-size: 200%;
-    font-family: "Avenir";
+    font-family: "Open Sans";
 
-}
-
-a{
-  color: #898989;
 }
