@@ -11,13 +11,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
     <link href="cover.css" rel="stylesheet">
+
 </head>
 
 <body>
   <!-- This is the navigation bar-->
-
       <nav>
-
           <ul>
                 <img src="logo.png" alt="INCOMMON" id="logo"/>
               <li><a href="#news">About us</a></li>
@@ -38,9 +37,14 @@
                   <h1 class="cover-heading">INCOMMON</h1>
                   <p class="lead">Slogan we don't know yet</p>
                   <p class="lead">
-                    <a href="#" class="btn btn-lg btn-default">Learn more</a>
+                    <a id="myButton" href="#" class="btn btn-lg btn-default">Learn more</a>
                   </p>
                 </div>
     </div>
+    <script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "about.html";
+    };
+</script>
 
 </body>
