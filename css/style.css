@@ -2,6 +2,7 @@ body, html {
       height: 100%;
       margin: 0;
   }
+
 .site-wrapper{
    background-image: url("../images/171122_InCommon_7992.jpg");
    height: 100%;
@@ -17,6 +18,7 @@ ul {
     overflow: hidden;
     background-color: #a5be97;
     height: 90px;
+    margin-bottom: 0px;
 }
 
 li {
@@ -54,4 +56,41 @@ li a:hover {
     font-size: 200%;
     font-family: "Open Sans";
 
+}
+
+#content{
+color: white;
+}
+.text-muted{
+  color: #f58f8f;
+}
+
+.btn, .btn-lg, .btn-primary, .btn-block{
+  background-color: #a5be97;
+  padding: green;
+}
+.form-signin:hover{
+color: white;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  background-color: #898989;
+}
+.featurette-image, .img-responsive, .center-block{
+  margin-top: 100px;
+  vertical-align: middle;
+}
+
+#team{
+text-align: center;
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: right;
+}
+
+ .col-md-7{
+  text-align: center;
 }
