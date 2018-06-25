@@ -1,66 +1,78 @@
 <!DOCTYPE html>
 <html>
-
-<div class="container">
-
-     <!-- Static navbar -->
-     <nav class="navbar navbar-default">
-       <div class="container-fluid">
-         <div class="navbar-header">
-           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-             <span class="sr-only">Toggle navigation</span>
-             <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-           </button>
-           <a class="navbar-brand" href="#">Project name</a>
-         </div>
-         <div id="navbar" class="navbar-collapse collapse">
-           <ul class="nav navbar-nav">
-             <li class="active"><a href="#">Home</a></li>
-             <li><a href="#">About</a></li>
-             <li><a href="#">Contact</a></li>
-             <li class="dropdown">
-               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-               <ul class="dropdown-menu">
-                 <li><a href="#">Action</a></li>
-                 <li><a href="#">Another action</a></li>
-                 <li><a href="#">Something else here</a></li>
-                 <li role="separator" class="divider"></li>
-                 <li class="dropdown-header">Nav header</li>
-                 <li><a href="#">Separated link</a></li>
-                 <li><a href="#">One more separated link</a></li>
-               </ul>
-             </li>
-           </ul>
-         </div><!--/.nav-collapse -->
-       </div><!--/.container-fluid -->
-     </nav>
-
 <head>
     <title>INCOMMON</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+     <link href="carousel.css" rel="stylesheet">
 </head>
+<body>
+  <body>
+  <!-- This is the navigation bar-->
+    <nav>
+        <ul>
+              <img src="logo.png" alt="INCOMMON" id="logo"/>
+            <li><a href="#news">About us</a></li>
+            <li><a href="#contact">Our team</a></li>
+            <li><a href="#about">Contact us</a></li>
+        </ul>
+    </nav>
 
-<hr class="featurette-divider">
+            <div class="container">
+<!--This is the content -->
+<div id=content>
 
+  <!-- The featurette -->
      <div class="row featurette">
+       <div class="col-md-7">
          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
        </div>
+       <div class="col-md-5">
+         <img class="featurette-image img-responsive center-block" src="images\171122_InCommon_7404.jpg">
+       </div>
+     </div>
 
+     <hr class="featurette-divider">
 
+     <div class="row featurette">
+       <div class="col-md-7 col-md-push-5">
+         <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+         <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+       </div>
+       <div class="col-md-5 col-md-pull-7">
+         <img class="featurette-image img-responsive center-block" src="images\IMG_7212.jpg">
+       </div>
+     </div>
+         <!-- Three columns of text below the carousel -->
+         <div id=team>
+         <hr class="featurette-divider">
+         <h2 class="featurette-heading">Meet <span class="text-muted">Our Team.</span></h2>
 
+            <div class="col-lg-4">
+               <img class="img-circle" src="images\171025_YH_Fellows_6653.jpg" width="140" height="140">
+                 <h2 style="color: #f58f8f">Heading</h2>
+                  <p style="color: #f58f8f"><strong>job position</strong></p>
+                   <p>Small text with 2 lines about her</p>
+                   <p> email: email@gmail.com </p>
+                 </div>
+                 <div class="col-lg-4">
+                   <img class="img-circle" src="images\171025_YH_Fellows_6707 (5).jpg" width="150" height="150">
+                   <h2 style="color: #f58f8f">Heading</h2>
+                   <p style="color: #f58f8f"><strong>job position</strong></p>
+                   <p>Small text with 2 lines about her</p>
+                   <p> email: email@gmail.com </p>
+                 </div>
 
+               </div>
 
-
-
-
+                <div class="row">
+             </div>
+<hr class="featurette-divider">
     <div class="container">
       <div class="col-md-7">
      <form class="form-signin">
-       <h2 class="form-signin-heading">Please sign in</h2>
+       <h2 class="form-signin-heading">Sing in to our newsletter!</h2>
        <label for="inputEmail" class="sr-only">Email address</label>
        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
        <label for="inputPassword" class="sr-only">Password</label>
@@ -74,10 +86,14 @@
      </form>
 
    </div> <!-- /container -->
+   <div class="container marketing">
 
 
    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
      </div>
 
+   </div id=content>
+</body>
 </html>
+
