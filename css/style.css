@@ -33,7 +33,7 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 30px;
-    font-family: "Open Sans";
+    font-family: "Avenir";
     line-height: 50px;
 
 }
@@ -48,13 +48,13 @@ li a:hover {
   height: 90px;
 }
 .cover-heading{
-  color:#f58f8f;
-  font-family: "Arial";
+  color: #f58f8f;
+  font-family: "Avenir";
   font-size: 1000%;
 }
 .lead{
     font-size: 200%;
-    font-family: "Open Sans";
+    font-family: "Avenir";
 
 }
 
@@ -69,14 +69,17 @@ color: white;
   background-color: #a5be97;
   padding: green;
 }
-.form-signin:hover{
+.form-signup-heading:hover{
 color: white;
+padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 body{
   width: 100%;
   height: 100%;
   background-color: #898989;
+  font-family: "Avenir";
 }
 .featurette-image, .img-responsive, .center-block{
   margin-top: 100px;
@@ -90,6 +93,10 @@ display: block;
     margin-right: auto;
     align-items: right;
 }
+
+.col-lg-7{
+  padding-left: 50px
+  padding-right: 50px;}
 
  .col-md-7{
   text-align: center;
