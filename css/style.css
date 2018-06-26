@@ -16,7 +16,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #a5be97;
+    background-color: #898989;
     height: 90px;
     margin-bottom: 0px;
 }
@@ -66,8 +66,8 @@ color: white;
 }
 
 .btn, .btn-lg, .btn-primary, .btn-block{
-  background-color: #a5be97;
-  padding: green;
+  background-color: #f58f8f;
+  padding: transparent;
 }
 .form-signup-heading:hover{
 color: white;
@@ -94,7 +94,7 @@ display: block;
     align-items: right;
 }
 
-.col-lg-4{
+.col-md-6{
   padding-left: 50px
   padding-right: 50px;}
 
