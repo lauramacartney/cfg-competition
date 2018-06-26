@@ -94,10 +94,10 @@ display: block;
     align-items: right;
 }
 
-.col-lg-7{
+.col-lg-4{
   padding-left: 50px
   padding-right: 50px;}
 
- .col-md-7{
+ .col-md-offset-2 col-md-8{
   text-align: center;
 }
